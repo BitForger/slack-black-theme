@@ -983,18 +983,18 @@ ts-jumper ts-jumper-container {
 }
 
 /* New Message List Styles */
-.c-virtual_list_item {
-    position: absolute;
-    width: 100%;
+.c-virtual_list__item {
     backgroud: #000;
-    color: #fff;
 }
 .c-member_slug--link {
     background: #0b4c8c;
     color: white !important;
 }
-.c--message__sender {
+.c-message__sender {
     color: #1d9bd1;
+}
+.c-message__body {
+    color: #fff;
 }
 .c-timestamp, .c-timestamp:link {
     color: rgba(29,155,209,.3);

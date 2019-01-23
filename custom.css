@@ -985,7 +985,7 @@ ts-jumper ts-jumper-container {
 /* New Message List Styles */
 .c-virtual_list__item,
 .c-message, .c-message--light {
-    backgroud: #000 !important;
+    background: #000 !important;
 }
 .c-member_slug--link {
     background: #0b4c8c;

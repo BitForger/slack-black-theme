@@ -991,13 +991,15 @@ ts-jumper ts-jumper-container {
     background: #0b4c8c;
     color: white !important;
 }
-.c-message__sender {
+.c-message__sender,
+.c-message__sender .c-message__sender_link {
     color: #1d9bd1;
 }
 .c-message__body {
     color: #fff;
 }
-.c-timestamp, .c-timestamp:link {
+.c-timestamp, .c-timestamp:link,
+.c-timestamp .c-timestamp:link .c-timestamp__label {
     color: rgba(29,155,209,.3);
 }
 .c-mrkdwn__broadcast--mention {

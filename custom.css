@@ -641,7 +641,7 @@ ts-mention.ts_tip:hover
    color: var(--text);
 }
 .p-emoji_picker__preview_text {
-   background-color: var(--bacground-elevated);
+   background-color: var(--background-elevated);
    color: var(--text);
 }
 
@@ -830,7 +830,7 @@ ts-thread .view_all_replies_container:hover {
 }
 .unread_group_header button {
    color: var(--text-special);
-},
+}
 
 
 /* scroller for threads & unreads */
@@ -968,7 +968,7 @@ select {
 }
 #fs_modal.prefs_modal .global_notification_block.selected {
    background: transparent;
-   border: 1px solid var(border-bright);
+   border: 1px solid var(--border-bright);
 }
 .notification_example.mac {
   color: #555459; /* default color - leave unthemed */
@@ -993,22 +993,22 @@ ts-jumper ts-jumper-container {
 }
 .c-message__sender,
 .c-message__sender .c-message__sender_link {
-    color: #1d9bd1 !important;
+    color: var(--text-special)!important;
 }
 .c-message__body {
     color: #fff;
 }
 .c-timestamp, .c-timestamp:link,
 .c-timestamp__label {
-    color: rgba(29,155,209,.3);
+    color: var(--text);
 }
 .c-mrkdwn__broadcast--mention {
     background: #0b4c8c;
     color: #fff;
 }
 .c-message_list__day_divider__label__pill {
-    background: #222222;
-    color: #C0C0C0;
+    background: var(--background-elevated);
+    color: var(--text);
     border: 1px solid var(--border-bright);
 }
 .c-scrollbar__hider:before {

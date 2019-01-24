@@ -985,7 +985,7 @@ ts-jumper ts-jumper-container {
 /* New Message List Styles */
 .c-virtual_list__item,
 .c-message, .c-message--light {
-    background: #000 !important;
+    background: var(background) !important;
 }
 .c-member_slug--link {
     background: #0b4c8c;
@@ -1005,4 +1005,12 @@ ts-jumper ts-jumper-container {
 .c-mrkdwn__broadcast--mention {
     background: #0b4c8c;
     color: #fff;
+}
+.c-message_list__day_divider__label__pill {
+    background: #222222;
+    color: #C0C0C0;
+    border: 1px solid var(border-bright);
+}
+.c-scrollbar__hider:before {
+    background: var(background-elevated);
 }

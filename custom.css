@@ -1002,7 +1002,7 @@ ts-jumper ts-jumper-container {
 .c-timestamp__label {
     color: var(--text);
 }
-.c-mrkdwn__broadcast--mention {
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__mention {
     background: #0b4c8c;
     color: #fff;
 }

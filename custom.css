@@ -598,7 +598,7 @@ ts-mention.ts_tip:hover
    margin: 0 !important;
 }
 
-.ts_icon.ts_icon_smile_o {
+.ts_icon:before {
    color: var(--text);
 }
 

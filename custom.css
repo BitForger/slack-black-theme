@@ -1017,6 +1017,7 @@ ts-jumper ts-jumper-container {
 .c-message_attachment__body {
     color: var(--text);
 }
+.c-message__editor__input--legacy,
 .c-message__editor__input--legacy.focus {
     background: var(--background);
 }

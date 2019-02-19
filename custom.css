@@ -598,7 +598,7 @@ ts-mention.ts_tip:hover
    margin: 0 !important;
 }
 
-.ts_icon:before {
+.presence:not(.active) .ts_icon:before {
    color: var(--text);
 }
 
@@ -1020,4 +1020,8 @@ ts-jumper ts-jumper-container {
 .c-message__editor__input--legacy,
 .c-message__editor__input--legacy.focus {
     background: var(--background);
+}
+
+.menu_member_header .member_details .member_timezone_value {
+    color: var(--text);
 }

@@ -237,6 +237,10 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   border-color: var(--border-dim) !important;
 }
 
+#msg_input.ql-container .ql-placeholder {
+    color: var(--text) !important;
+}
+
 .day_divider .day_divider_label,
 #convo_container .convo_flexpane_divider .reply_count {
   color: var(--text) !important;

@@ -376,6 +376,10 @@ ts-message .action_hover_container .btn_msg_action,
   box-shadow: 0 1px 10px var(--background-elevated) !important;
 }
 
+.texty_single_line_input.ql-container .ql-placeholder {
+    color: var(--text) !important;
+}
+
 .ql-placeholder {
    color: var(--text);
 }

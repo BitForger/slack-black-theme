@@ -1033,3 +1033,7 @@ ts-jumper ts-jumper-container {
 .menu_member_header .member_details .member_timezone_value {
     color: var(--text);
 }
+
+.p-message_pane__foreword__description {
+    color: var(--text);
+}

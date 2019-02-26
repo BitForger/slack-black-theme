@@ -1030,6 +1030,10 @@ ts-jumper ts-jumper-container {
     background: var(--background);
 }
 
+.c-virtual_list__scroll_container {
+    background: var(--background);
+}
+
 .menu_member_header .member_details .member_timezone_value {
     color: var(--text);
 }
